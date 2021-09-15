@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC Responsive</title>
+    
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/e718c4b2bc.js" crossorigin="anonymous"></script>
+  
+</head>
+
+  <body>
+    <header> <!--The navigation bar on top of the webpage-->
+      <nav class="navbar">
+        <ul>
+          <!-- BBC logo -->
+          <li><a href="#"><img id="logo" src="logo.png" alt="bbc logo"></a></li>
+          <!-- Sign in w/ categories -->
+          <li class="nav-sign-in"><a href="#"><i class="fas fa-user-circle"></i><span class="sign-in">Sign in</span></a></li>
+          <li class="nav-news"><a href="#">News</a></li>
+          <li class="nav-sport"><a href="#">Sport</a></li>
+          <li class="nav-weather"><a href="#">Weather</a></li>
+          <li class="nav-shop"><a href="#">Shop</a></li>
+          <li class="nav-earth"><a href="#">Earth</a></li>
+          <li class="nav-travel"><a href="#">Travel</a></li>
+          <li class="nav-capital"><a href="#">Capital</a></li>
+          <li class="nav-culture"><a href="#">Culture</a></li>
+          <!-- More w/ drop down options -->
+          <li class="nav-select">
+            <a href="#">
+              <label for="select"><span class="more">More</span>
+                <select name="select">
+                  <option value="option"></option>
+                </select>
+              </label>
+            </a>
+          </li>
+          <!-- Search bar w/out the logo -->
+          <li class="search-bar">
+            <a href="#">
+              <label for="text">
+                <form action="submit.php">
+                  <input class="text" type="text" placeholder="Search">
+                </form>
+              </label>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Section -->
+    <section class="body-width">
+      <section class="welcome">
+        <h2>Welcome to BBC.com</h2>
+        <p>Wednesday, 11 January</p>
+      </section>
+      <div class="clr"></div>
+      <section class="container">
+        <section class="main-section">
+          <section class="main-section-container">
+          <h3><a href="#">Trump condemns spy agency 'leaks'</a></h3>
+          <p><a href="#">The president-elect tells reporters alleged compromising material on him is "fake and phoney"</a></p>
+          <h5><a href="#">US & CANADA</a></h5>
+          </section>
+        </section>
+        <div class="clear"></div>
+        <section class="main-section-second-section">
+          <section class="quadOne">
+            <p><a href="#">How did 'compromising' Trump claims come to light?</a></p>
+            <h5><a href="#">US</a></h5>
+          </section>
+          <section class="quadTwo">
+            <p><a href="#">Tillerson accepts Putin knew of hacking</a></p>
+            <h5><a href="#">US & CANADA</a></h5>
+          </section>
+          <section class="quadThree">
+            <p><a href="#">Oxford academics warning of Brexit 'disaster'</a></p>
+            <h5><a href="#">EDUCATION & FAMILY</a></h5>
+          </section>
+          <section class="quadFour">
+            <p><a href="#">Why open offices are bad for us</a></p>
+            <h5><a href="#">CAPITAL</a></h5>
+          </section>
+        </section>
+      </section>
+      
+      <!-- Bottom Half -->
+      <section>
+        <h2 class="news title"> News</h2>
+      </section>
+      <section id="articles">
+        <section class="newsOne">
+            <a href="#"><img src="./imgs/news1.jpg" alt=""></a>
+        </section>
+        <section class="newsTwo">
+            <a href="#"><img src="./imgs/news2.jpg" alt=""></a>
+        </section>
+        <section class="newsThree">
+            <a href="#"><img src="./imgs/news3.jpg" alt=""></a>
+        </section>
+       
+    
+    </section>
+  </body>
+</html>
